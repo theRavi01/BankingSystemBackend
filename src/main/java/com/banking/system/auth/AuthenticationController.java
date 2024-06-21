@@ -138,6 +138,11 @@ public class AuthenticationController {
 			return new ResponseEntity<Map> (HttpStatus.BAD_REQUEST);
 		}
 	}
+	
+	@GetMapping
+	public String testing() {
+		return "working";
+	}
 }
 	
   
