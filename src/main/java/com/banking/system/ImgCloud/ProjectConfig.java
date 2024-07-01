@@ -15,13 +15,9 @@ public class ProjectConfig {
 	public Cloudinary getCloudinary() {
 		Map config = new HashMap();
 		
-//		durgesh sir cloud api......
-//		config.put("cloud_name","dzt0sficj");
-//		config.put("api_key","296397932259591");
-//		config.put("api_secret","qfPCg5U-zdFH8gF0TKUFb_TAYIQ");
-		config.put("cloud_name","dmgwwxfbi");
-		config.put("api_key","999182817265942");
-		config.put("api_secret","uRIcbrWWGoC5cQGmdZhbGh9QKlY");
+		config.put("cloud_name","dmwxfbi");
+		config.put("api_key","9992817265942");
+		config.put("api_secret","uRIcbrWWGoC5cQGmdbGh9QKlY");
 		config.put("secure",true);
 		return new Cloudinary(config);
 	}
